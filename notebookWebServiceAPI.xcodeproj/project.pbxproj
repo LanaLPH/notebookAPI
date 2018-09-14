@@ -12,6 +12,8 @@
 		6EE9930F214B405200E538EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE9930D214B405200E538EF /* Main.storyboard */; };
 		6EE99311214B405500E538EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE99310214B405500E538EF /* Assets.xcassets */; };
 		6EE99314214B405500E538EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE99312214B405500E538EF /* LaunchScreen.storyboard */; };
+		6EE9931C214B460900E538EF /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9931B214B460900E538EF /* TableTableViewController.swift */; };
+		6EE9931E214B462200E538EF /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9931D214B462200E538EF /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6EE99310214B405500E538EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EE99313214B405500E538EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EE99315214B405500E538EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE9931B214B460900E538EF /* TableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		6EE9931D214B462200E538EF /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 				6EE9930B214B405200E538EF /* ViewController.swift */,
 				6EE9930D214B405200E538EF /* Main.storyboard */,
 				6EE99310214B405500E538EF /* Assets.xcassets */,
+				6EE9931B214B460900E538EF /* TableTableViewController.swift */,
 				6EE99312214B405500E538EF /* LaunchScreen.storyboard */,
+				6EE9931D214B462200E538EF /* Notes.swift */,
 				6EE99315214B405500E538EF /* Info.plist */,
 			);
 			path = notebookWebServiceAPI;
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EE9930C214B405200E538EF /* ViewController.swift in Sources */,
+				6EE9931C214B460900E538EF /* TableTableViewController.swift in Sources */,
 				6EE9930A214B405200E538EF /* AppDelegate.swift in Sources */,
+				6EE9931E214B462200E538EF /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
